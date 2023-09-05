@@ -1,0 +1,708 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html
+{
+    scroll-behavior: smooth;
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./abstract-coding-wallpaper-glowing-numbers-binary-code-computing-concept-d-rendering-155772299.webp");
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainheader
+{
+    background-color: rgba(1, 161, 167,0.5);
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Oxanium' ;
+    border-radius: 70px;
+    /* position: fixed;     */
+}
+
+.logo
+{
+    height: 15vh;
+    width: 25%;
+    /* background-color: blue; */
+    /* background-image: url(assests/logo.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(); */
+    /* background-color: rgba(1, 161, 167,0.5); */
+    overflow: hidden;
+}
+.logo img
+{
+    background-color: white;
+    border-radius: 60px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.list
+{
+    padding-right: 50px;
+    width: 500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    height: 15vh;
+}
+.list a 
+{
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 70px;
+    width: 100px;
+    border: 3px solid peru;
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    transition: 0.7s;   
+    padding: 2px;
+
+}
+.list a:hover{
+    background-color: peru;
+    width: 120px;
+}
+
+.mainpage
+{
+    width: 100%;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 150px;
+    color: white;
+
+}
+
+.mainpage>h1{
+    /* width: 100%; */
+    /* font-family: 'Varela Round'; */
+    font-family: 'Trade Winds' ;
+    font-size: 50px;
+    color: peru;
+    padding-bottom: 40px;
+}
+.mainpage p{
+    font-size: 20px;
+    font-family: 'Varela Round';
+    /* font-family: 'Roboto' ; */
+    text-align: left;
+    width: 70%;
+
+}
+.mainpage button 
+{
+    margin-top: 20px;
+    padding: 15px 35px;
+    border: none;
+    color: white;   
+    font-family: 'Varela Round';
+    /* font-family: sans-serif; */
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+.mainpage button:hover
+{
+    margin-top: 20px;
+    padding: 18px 45px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.btnone
+{
+    background-color: rgb(255, 14, 73);
+    
+}
+.btntwo
+{
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/******************* Second page projects section************************/
+.projectsection{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)), url("./images\ \(1\).jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+
+.projectsection h1
+{
+    color: peru;
+    font-family: 'Varela Round' ;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    align-items: center;    
+    padding: 60px 0px;
+    
+    
+}
+
+
+
+.figuresdiv
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.figuresdiv figure
+{
+    font-size: 25px;
+    font-family: 'Varela Round';
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+.figuresdiv figure img
+{
+    width: 500px;
+    height: 300px;
+    border: 4px solid black;
+    border-radius: 40px;
+    
+}
+.figuresdiv figure img:hover
+{
+
+    cursor: pointer;
+    width: 550px;
+    height: 350px;
+    transition: 0.7s ;
+    /* transition: 0.7s; */
+}
+
+/******************* About section page contact section************************/
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+/******************maincontainer ******************/
+.maincontainer
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Catching-Up-to-Dynamic-Security-630x330.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* color: rgb(150,150,20); */
+
+}
+/******************subcontainer ******************/
+.subcontainer
+{
+    /* background-color: wheat; */
+    width: 80%;
+    height: 100vh;
+    margin:0 auto ;
+    justify-content: space-between;
+    
+}
+/******************************** container1*******************************/
+.container1
+{
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+    /* border: 2px solid peru; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.container1 h1
+{
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Varela Round';
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+/******************************** container2*******************************/
+.container2
+{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    /* padding: 50px; */
+    /* border: 2px solid red; */
+    align-items: center;
+    margin: 0 auto;
+}
+/******************container2 left ******************/
+.left 
+{
+    width: 50%;
+    /* background-color: yellow; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+
+}
+.left .first
+{
+    /* border: 3px solid peru; */
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    /* align-items: center; */
+    /* align-items: baseline; */
+    
+    
+}
+/* setting picture */
+.left .first img{
+    width: 60%;
+    height: 50%;
+    border-radius: 92px;
+}
+.left .first h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+    color: whitesmoke;
+    padding-top: 10px;
+
+}
+
+.left .first p
+{
+    text-align: center;
+    /* font-family: sans-serif; */
+    font-family: 'Varela Round';
+    /* font-weight: bolder; */
+    font-size: 15px;
+    color: whitesmoke;
+    padding-top: 7px;
+
+}
+
+/*left second child */
+.left .second
+{
+    width:40%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.left .second img{
+    width: 60%;
+    height: 50%;
+    border-radius: 92px;
+}
+.left .second h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+
+
+}
+
+.left .second p
+{
+    text-align: center;
+    font-family: 'Varela Round';
+    /* font-family: sans-serif; */
+    /* font-weight: bolder; */
+    font-size: 15px;
+    color: whitesmoke;
+    padding-top: 7px;
+
+
+}
+
+/******************container2 right ******************/
+.right
+{
+    /* border: 3px solid tomato; */
+    width: 50%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;    
+}
+.right .first
+{
+    width: 40%;
+    height: 100%;
+    /* border: 3px solid peru; */
+    align-items: center;
+    text-align: center;    
+}
+/* setting picture */
+.right .first img
+{
+    height: 50%;
+    width: 60%;
+    height: 50%;
+    border-radius: 92px;
+    /* border: 2px solid black; */
+}
+.right .first h1
+{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+.right .first p
+{
+    text-align: center;
+    /* font-family: sans-serif; */
+    font-family: 'Varela Round';
+    /* font-weight: bolder; */
+    font-size: 15px;
+    padding-top: 7px;
+    color: whitesmoke;
+}
+
+/************************ Right second **************/
+.right .second
+{
+    width: 40%;
+    height: 100%;
+    /* border: 3px solid orangered; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.right .second img
+{
+    width: 60%;
+    height: 50%;
+    border-radius: 92px;
+
+}
+
+.right .second h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+.right .second p
+{
+    padding-top: 7px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Varela Round';
+    /* font-family: sans-serif; */
+    /* font-weight: bolder; */
+    font-size: 15px;
+}
+
+/*********************container3 **********************************/
+.container3
+{
+    /* margin-top: 200px; */
+    /* background-color: lightcoral; */
+    width: 100%;
+    height: 55%;
+    /* border: 4px solid red; */
+    margin: 0px auto;
+    display: flex;
+    overflow: hidden;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+
+/*********************container3 left**********************************/
+.container3left
+{
+    /* background-color: yellowgreen; */
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+
+}
+.container3left img 
+{
+    height: 60%;
+    width: 170px;
+    /* widows: 100%; */
+    border-radius: 30px;
+}
+.container3left h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 25px;   
+    margin: 10px 0px 10px 0px;
+    color: whitesmoke;
+
+}
+.container3left p
+{
+    width: 78%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Varela Round';
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/*********************container3 right**********************************/
+.container3right
+{
+    width: 50%;
+    height: 100%;
+    /* background: yellowgreen; */
+       
+}
+/* *********************** line1 ************************************ */
+
+.container3right .line-1
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+}
+.line-1 .p1
+{
+    text-align: center;
+    background-color: rgb(5, 194, 201);
+    width: 20%;
+    font-size: 20px;
+    
+}
+.line-1 div
+{
+    background-color: rgb(1, 161, 167);
+    width: 60%;
+    font-size: 20px;
+    color: rgb(1, 161, 167);
+}
+.line-1 p
+{
+    background-color: rgb(238, 238, 238);
+    width: 20%;
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+/* *********************** line2 ************************************ */
+
+.container3right .line-2
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+}
+.line-2 .p1
+{
+    text-align: center;
+    background-color: rgb(5, 194, 201);
+    width: 20%;
+    font-size: 20px;
+    
+}
+.line-2 div
+{
+    background-color: rgb(1, 161, 167);
+    width: 30%;
+    font-size: 20px;
+    color: rgb(1, 161, 167);
+}
+.line-2 p
+{
+    padding-right: 20px;
+    text-align: right;
+    background-color: rgb(238, 238, 238);
+    width: 50%;
+    font-size: 20px;
+}
+
+
+/* *********************** line3 ************************************ */
+
+
+.container3right .line-3
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+}
+.line-3 .p1
+{
+    text-align: center;
+    background-color: rgb(5, 194, 201);
+    width: 20%;
+    font-size: 20px;
+    
+}
+.line-3 div
+{
+    background-color: rgb(1, 161, 167);
+    width: 50%;
+    font-size: 20px;
+    color: rgb(1, 161, 167);
+}
+.line-3 p
+{
+    background-color: rgb(238, 238, 238);
+    width: 30%;
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: right;
+
+}
+
+/* *********************** line4************************************ */
+
+.container3right .line-4
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+}
+.line-4 .p1
+{
+    background-color: rgb(5, 194, 201);
+    text-align: center;
+    width: 20%;
+    font-size: 20px;
+    
+}
+.line-4 div
+{
+    background-color: rgb(1, 161, 167);
+    width: 20%;
+    font-size: 20px;
+    color: rgb(1, 161, 167);
+}
+.line-4 p
+{
+    background-color: rgb(238, 238, 238);
+    width: 60%;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+/* *********************** line5 ************************************ */
+.container3right .line-5
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    font-family: 'Varela Round';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+}
+.line-5 .p1
+{
+    text-align: center;
+    background-color: rgb(5, 194, 201);
+    width: 20%;
+    font-size: 20px;
+    
+}
+.line-5 div
+{
+    background-color: rgb(1, 161, 167);
+    width: 25%;
+    font-size: 20px;
+    color: rgb(1, 161, 167);
+}
+.line-5 p
+{
+    text-align: right;
+    padding-right: 20px;
+    background-color: rgb(238, 238, 238);
+    width: 55%;
+    font-size: 20px;
+}
+
+/*********************** Section 4 ***********************************/
+ 
